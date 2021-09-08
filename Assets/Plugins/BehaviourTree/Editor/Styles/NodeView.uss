@@ -1,0 +1,165 @@
+#node-border {
+    background-color: rgb(56, 56, 56);
+    border-left-color: rgb(25, 25, 25);
+    border-right-color: rgb(25, 25, 25);
+    border-top-color: rgb(25, 25, 25);
+    border-bottom-color: rgb(25, 25, 25);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#input {
+    align-items: center;
+}
+
+#output {
+    align-items: center;
+}
+
+#selection-border {
+    border-left-color: rgb(0, 140, 255);
+    border-right-color: rgb(0, 140, 255);
+    border-top-color: rgb(0, 140, 255);
+    border-bottom-color: rgb(0, 140, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+:selected > #selection-border {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+:hover > #selection-border {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+:hover:selected > #selection-border {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.node {
+    min-width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#title-label {
+    -unity-text-align: upper-center;
+    font-size: 14px;
+    -unity-font-style: bold;
+}
+
+#description {
+    font-size: 10px;
+    white-space: normal;
+    max-width: 150px;
+}
+
+#divider {
+    min-width: auto;
+    background-color: rgb(80, 80, 80);
+    min-height: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.action-node #input {
+    background-color: rgb(56, 123, 52);
+}
+
+.gate-node #input {
+    background-color: rgb(110, 77, 135);
+}
+
+.selector-node #input {
+    background-color: rgb(147, 121, 48);
+}
+
+.root-node #input {
+    background-color: rgb(166, 54, 54);
+    min-height: 20px;
+}
+
+#node-state {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.idle-state #node-state {
+    border-left-color: rgb(196, 196, 196);
+    border-right-color: rgb(196, 196, 196);
+    border-top-color: rgb(196, 196, 196);
+    border-bottom-color: rgb(196, 196, 196);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.running-state #node-state {
+    border-left-color: rgb(45, 201, 255);
+    border-right-color: rgb(45, 201, 255);
+    border-top-color: rgb(45, 201, 255);
+    border-bottom-color: rgb(45, 201, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.failure-state #node-state {
+    border-left-color: rgb(248, 0, 0);
+    border-right-color: rgb(248, 0, 0);
+    border-top-color: rgb(248, 0, 0);
+    border-bottom-color: rgb(248, 0, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.success-state #node-state {
+    border-left-color: rgb(18, 214, 18);
+    border-right-color: rgb(18, 214, 18);
+    border-top-color: rgb(18, 214, 18);
+    border-bottom-color: rgb(18, 214, 18);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}

@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8940952609165673673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e889b359d24fe19222d583689524eb, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  guid: 4828d21f15d892b429b49a8719ed51f9
+  state: 0
+  position: {x: 392.81335, y: 164.66669}
+  treeContext:
+    stringValue: 
+    vector2Value: {x: 0, y: 0}
+  description: 
+  message: 1
+--- !u!114 &-6678348606713555472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9a2e0c6113472fa061f73625a21a4f, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  guid: 3881b39ca616d6a46ad26738f98b273b
+  state: 0
+  position: {x: 93, y: -13}
+  treeContext:
+    stringValue: 
+    vector2Value: {x: 0, y: 0}
+  description: Sequencer node
+  childNodes:
+  - {fileID: 3812530721856395433}
+  - {fileID: -6596555850185271549}
+  - {fileID: 2672712148363579640}
+  - {fileID: -8940952609165673673}
+--- !u!114 &-6596555850185271549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e889b359d24fe19222d583689524eb, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  guid: 3bf8d3a47d71544408b5f6c72b33027a
+  state: 0
+  position: {x: 45.333313, y: 164.66666}
+  treeContext:
+    stringValue: 
+    vector2Value: {x: 0, y: 0}
+  description: 
+  message: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e86c17eef8c45809270e592a0b349ed, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: 8925999890275553835}
+  treeState: 0
+  nodes:
+  - {fileID: 8925999890275553835}
+  - {fileID: -6678348606713555472}
+  - {fileID: 3812530721856395433}
+  - {fileID: -6596555850185271549}
+  - {fileID: 2672712148363579640}
+  - {fileID: -8940952609165673673}
+  treeContext:
+    stringValue: 
+    vector2Value: {x: 0, y: 0}
+--- !u!114 &2672712148363579640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf0e3c7f9894905bbdbb4d076848c83, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  guid: 9bdd8d5ca15bba944a4af256e63a7b5e
+  state: 0
+  position: {x: 218, y: 164.66667}
+  treeContext:
+    stringValue: 
+    vector2Value: {x: 0, y: 0}
+  description: 
+  delay: 6
+--- !u!114 &3812530721856395433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf0e3c7f9894905bbdbb4d076848c83, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  guid: 2626a7966cff5564ca56fc3bafc32c16
+  state: 0
+  position: {x: -137.37335, y: 164.66666}
+  treeContext:
+    stringValue: 
+    vector2Value: {x: 0, y: 0}
+  description: 
+  delay: 6
+--- !u!114 &8925999890275553835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f480d86b089e474da4f9e0ba2defef1b, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  guid: 2c028c93a36310f4292c88f757cef725
+  state: 0
+  position: {x: 93.33334, y: -126.97333}
+  treeContext:
+    stringValue: 
+    vector2Value: {x: 0, y: 0}
+  description: 
+  childNode: {fileID: -6678348606713555472}
